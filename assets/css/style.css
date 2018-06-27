@@ -180,6 +180,10 @@ a {
     background-image: linear-gradient(  rgba(0,0,0,.4),  rgba(0,0,0,.4)), url(../images/portfolio_word-guess-game.png);
 }
 
+.portfolio__preview.rpgGame {
+    background-image: linear-gradient(  rgba(0,0,0,.4),  rgba(0,0,0,.4)), url(../images/portfolio_play-own-risk.png);
+}
+
 
 
 .portfolio__link {
