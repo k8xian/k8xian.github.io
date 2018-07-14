@@ -185,7 +185,10 @@ a {
 }
 
 .portfolio__preview.triviaGame {
-    background-image: linear-gradient(  rgba(0,0,0,.4),  rgba(0,0,0,.4)), url(../images/portfolio_triviagame.png);
+    background-image: linear-gradient(  rgba(0,0,0,.4),  rgba(0,0,0,.4)), url(../images/portfolio_pubquiz.png);
+}
+.portfolio__preview.giftastic {
+    background-image: linear-gradient(  rgba(0,0,0,.4),  rgba(0,0,0,.4)), url(../images/portfolio_giftastic.png);
 }
 
 
