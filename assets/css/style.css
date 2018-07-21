@@ -190,6 +190,10 @@ a {
 .portfolio__preview.giftastic {
     background-image: linear-gradient(  rgba(0,0,0,.4),  rgba(0,0,0,.4)), url(../images/portfolio_giftastic.png);
 }
+.portfolio__preview.traintime {
+    background-image: linear-gradient(  rgba(0,0,0,.4),  rgba(0,0,0,.4)), url(../images/portfolio_traintime.png);
+}
+
 
 
 
