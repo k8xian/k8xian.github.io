@@ -195,6 +195,7 @@ a {
 }
 .portfolio__preview.project1 {
     background-image: linear-gradient(  rgba(0,0,0,.4),  rgba(0,0,0,.4)), url(../images/portfolio_project1.png);
+    background-position: 0px -121px;
 }
 
 
