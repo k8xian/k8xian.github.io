@@ -193,6 +193,10 @@ a {
 .portfolio__preview.traintime {
     background-image: linear-gradient(  rgba(0,0,0,.4),  rgba(0,0,0,.4)), url(../images/portfolio_traintime.png);
 }
+.portfolio__preview.project1 {
+    background-image: linear-gradient(  rgba(0,0,0,.4),  rgba(0,0,0,.4)), url(../images/portfolio_project1.png);
+}
+
 
 
 
