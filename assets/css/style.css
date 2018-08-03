@@ -404,6 +404,7 @@ nav ul a:hover {
         margin-left: 0;
         padding: 2em;
         background-color: #26c6da;
+        margin-bottom: -1em;
     }
 }
 
