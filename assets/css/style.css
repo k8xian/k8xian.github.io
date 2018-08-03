@@ -193,10 +193,26 @@ nav ul a:hover {
 
 /*------------about------------*/
 
+.email__link {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5em;
+    line-height: 2em;
+    cursor: pointer;
+    color: rgba(255,255,255,1);
+    transition-timing-function: ease-in-out;
+    transition-property: transform;
+    transition-duration: 200ms;
+    display: inline-block;
+}
+
+.email__link:hover {
+    transform: scale(1.1);   
+}
+
 .bio__image {
     background-image: url(../images/kate.jpeg);
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     clear: both;
     background-size: cover;
     border-radius: 50%;
@@ -207,7 +223,7 @@ nav ul a:hover {
 
 .bio__text {
     clear: both;
-    padding: 0 3em 1em;
+    padding: 0 3em 3em;
     text-align: justify;
     line-height: 1.5em;
     width: 100%;
@@ -405,6 +421,11 @@ nav ul a:hover {
         padding: 2em;
         background-color: #26c6da;
         margin-bottom: -1em;
+    }
+
+    .email__link {
+        font-size: .9em;
+        margin-top: 20px;
     }
 }
 
