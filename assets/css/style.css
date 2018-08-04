@@ -48,6 +48,7 @@ body.about {
     height: 100%;
     width: 80%;
     margin: auto;
+    padding-bottom: 2em;
 }
 
 nav {
