@@ -281,7 +281,7 @@ nav ul a:hover {
 
 .project__image {
     width: 300px;
-    height: 300px;
+    height: 180px;
     display: block;
     float: left;
     background-color: rgba(0,0,0,.3);
@@ -304,7 +304,7 @@ nav ul a:hover {
 
 .project__image.project1 {
     background-image: url(../images/portfolio_project1.png);
-    background-position-y: 37%;
+    background-position-y: 27%;
 }
 
 .project__image.graphic {
@@ -349,8 +349,9 @@ nav ul a:hover {
 
 @media only screen and (max-width: 840px) {
     .project__image {
-        height: 200px;
         width: 200px;
+        height: 145px;
+        margin-top: 33px;
     }
 }
 
@@ -407,10 +408,9 @@ nav ul a:hover {
     }
 
     .project__image {
-        max-height: 300px;
         max-width: 300px;
+        height: 180px;
         width: 80vw;
-        height: 80vw;
         margin-top: 2em;
     }
 
