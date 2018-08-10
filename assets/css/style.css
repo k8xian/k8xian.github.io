@@ -302,6 +302,11 @@ nav ul a:hover {
     transform: scale(1.1);
 }
 
+.project__image.liri {
+    background-image: url(../images/portfolio_liri.png);
+    background-position-y: 27%;
+}
+
 .project__image.project1 {
     background-image: url(../images/portfolio_project1.png);
     background-position-y: 27%;
