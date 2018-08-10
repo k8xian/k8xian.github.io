@@ -1,4 +1,4 @@
-# Kate Christian
+# Kate Christian - Dev Portfolio
 
 [k8xian.github.io](https://k8xian.github.io)
 
