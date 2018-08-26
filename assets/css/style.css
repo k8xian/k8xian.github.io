@@ -301,6 +301,9 @@ nav ul a:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+.project__image.bamazon {
+    background-image: url(../images/bamazon.png);
+}
 
 .project__image.liri {
     background-image: url(../images/portfolio_liri.png);
@@ -343,9 +346,6 @@ nav ul a:hover {
 .project__image.traintime {
     background-image: url(../images/portfolio_traintime.png);
     background-position-x: 43%;
-}
-.project__image.bamazon {
-    background-image: url(../images/bamazon.png);
 }
 
 
