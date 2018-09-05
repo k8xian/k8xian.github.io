@@ -301,6 +301,9 @@ nav ul a:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+.project__image.friendFinder {
+    background-image: url(../images/friendFinder.png);
+}
 .project__image.bamazon {
     background-image: url(../images/bamazon.png);
 }
