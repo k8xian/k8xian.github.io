@@ -1,6 +1,16 @@
+:root{
+    --font-code: 'Inconsolata', monospace;
+    --font-body: 'Architects Daughter', cursive;
+    --font-title: 'Anton', sans-serif;
+    --section-header: #fff7af;
+    --dark-font: rgba(0,0,0,.72);
+    --gray-font: rgba(0,0,0,.54);
+    --black-font: rgba(0,0,0,1);
+}
+
 body{
     background-color: #4dd0e1;
-    font-family: 'Architects Daughter', cursive;
+    font-family: var(--font-code);
     background-image: url(../images/background-dark.png);
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -73,7 +83,7 @@ nav {
     color: white !important;
     line-height: 6vh;
     margin-top: -5vh;
-    font-family: 'Architects Daughter', cursive;
+    font-family: var(--font-body);
     font-size: 1em;
     background-color: rgba(0,0,0,.1);
 }
@@ -125,7 +135,7 @@ p {
 }
 
 h1, h2 , h3{
-    font-family: 'Anton', sans-serif;
+    font-family: var(--font-title);
     color: white;
     text-align: right;
     margin-top: 1.5em;
@@ -206,7 +216,7 @@ nav ul a:hover {
 /*------------about------------*/
 
 .email__link {
-    font-family: 'Anton', sans-serif;
+    font-family: var(--font-title);
     font-size: 1.5em;
     line-height: 2em;
     cursor: pointer;
@@ -243,7 +253,7 @@ nav ul a:hover {
     font-size: 1em;
     width: 100%;
     letter-spacing: 0;
-    font-family: arial, sans-serif;
+    font-family: var(--font-code);
     font-weight: 300;
 }
 
@@ -257,13 +267,17 @@ nav ul a:hover {
     display: inline-block;
 }
 
+.project__block:last-of-type {
+    border-bottom: none;
+}
+
 .project__info {
     width: 60%;
     float: left;
 }
 
 .portfolio__link {
-    font-family: 'Architects Daughter', cursive;
+    font-family: var(--font-body);
     font-size: 1em;
     transition-timing-function: ease-in-out;
     transition-property: transform;
@@ -464,3 +478,121 @@ nav ul a:hover {
     }
 }
 
+/* resume */
+.resume__section__title {
+float: left;
+width: 30%;
+color: white;
+font-family: var(--font-code);
+text-align: left;
+}
+
+.resume__section__description {
+    float: left;
+    width: 70%;
+}
+
+.resume__section__description__header {
+    float: left;
+    color: var(--section-header);
+    font-family: var(--font-code);
+    text-align: left;
+    line-height: 1.2em;
+    font-size: 1.5em;
+    clear: both;
+} 
+
+.resume__section__description__header.space {
+    margin-top: 30px;
+}
+
+.resume__section__description__subheader {
+    float: left;
+    color: white;
+    font-family: var(--font-code);
+    text-align: left;
+    line-height: 1.2em;
+    color: rgba(255,255,255,.8);
+    font-style: italic;
+    clear: both;
+    text-transform: uppercase;
+} 
+
+.resume__section__description__content {
+    color: white;
+    font-family: var(--font-code);
+    text-align: left;
+    line-height: 1.2em;
+    clear: both;
+    padding-top: 20px;
+}
+
+ul.li {
+    list-style-type: disc !important;
+}
+ul:not(.browser-default)>li {
+    list-style-type: disc !important;
+    margin-left: 16px;
+}
+
+ul:not(.browser-default)>li.nav {
+    list-style-type: none !important;
+    font-family: var(--font-body);
+}
+
+@media print {
+    .resume__section__description__content {
+        color: var(--black-font);
+        font-size: 10px;
+        padding-top: 5px;
+    }
+    .resume__section__description__subheader {
+        color: var(--gray-font);
+        font-size: 10px;
+    }
+
+    .resume__section__description__header {
+        color: var(--dark-font);
+        font-size: 14px;
+    }
+    .resume__section__description__header.space {
+        margin-top: 10px;
+    }
+
+    ul:not(.browser-default)>li.nav {
+        display: none;
+    }
+    h1{
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+    ul#mobile-demo {
+        display: none;
+    }
+    ul.sidenav {
+        display: none;
+    }
+    a.sidenav-trigger{
+        display: none;
+    }
+    .nav-wrapper{
+        display: none;
+    }
+    .project__block{    
+        padding: 20px 3em 0;
+    }
+    .resume__section__title{
+        width: 20%;
+        font-size: 14px;
+    }
+    .resume__section__description {
+        width: 80%;
+    }
+
+    .container {
+        padding-bottom: 0;
+    }
+
+}
