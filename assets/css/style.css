@@ -315,6 +315,9 @@ nav ul a:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+.project__image.project2{
+    background-image: url(../images/martian-odyssey.png);
+}
 .project__image.burger{
     background-image: url(../images/portfolio-burgers.png);
 }
