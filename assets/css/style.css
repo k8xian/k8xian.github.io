@@ -315,6 +315,9 @@ nav ul a:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
+.project__image.react-memory{
+    background-image: url(../images/memory-game.png);
+}
 .project__image.wapo-scraper{
     background-image: url(../images/wapo-scraper.png);
 }
