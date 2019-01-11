@@ -1,12 +1,13 @@
 :root{
-    --font-code: 'Inconsolata', monospace;
-    --font-body: 'Architects Daughter', cursive;
+    --font-code: 'dm', monospace;
+    --font-body: 'dm', monospace;
     --font-title: 'Anton', sans-serif;
-    --section-header: #fff7af;
+    --section-header: #9c27b0;
     --dark-font: rgba(0,0,0,.72);
     --gray-font: rgba(0,0,0,.54);
     --black-font: rgba(0,0,0,1);
 }
+
 
 body{
     background-color: #4dd0e1;
@@ -527,7 +528,7 @@ text-align: left;
     color: rgba(255,255,255,.8);
     font-style: italic;
     clear: both;
-    text-transform: uppercase;
+    text-transform: lowercase;
 } 
 
 .resume__section__description__content {
