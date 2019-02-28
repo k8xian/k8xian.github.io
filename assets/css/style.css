@@ -261,6 +261,29 @@ nav ul a:hover {
 
 /*------------work------------*/
 
+.project__note {
+    clear: both;
+    font-style: italic;
+    text-align: left;
+    padding-top: 7px;
+    font-size: .8rem;
+    color: #0079ff;
+}
+
+.project__construction {
+    height: 50px;
+    width: 50px;
+    z-index: 50;
+    float: right;
+    background-image: url(../images/construction.png);
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: -19px;
+    margin-top: -20px;
+}
+
 .project__block {
     width: 100%;
     border-bottom: 1px solid rgba(255,255,255,.6);
